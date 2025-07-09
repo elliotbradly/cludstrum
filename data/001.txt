@@ -1,0 +1,11 @@
+Incorporating idle/incremental features into **"The Serpent-Skin Testament"** would transform its cycle of suffering into a slow-burn, inescapable grind, enhancing its themes of futility and systemic oppression. Here's how:
+
+**Core Idle Mechanics:**
+
+1.  **Automated Humiliation Generation:** While the player is away from the game, their "Humiliation" stat would slowly tick up automatically, representing the constant, background pressure of societal judgment and self-loathing. The player returns not to a neutral state, but to a deeper hole.
+
+2.  **The "Room of Faded Glory" as an Idle Engine:** Instead of being just a save point, the "Room" would become an idle engine. The player could invest resources to "Upgrade Despair" or "Polish a Tarnished Memory." These upgrades wouldn't offer buffs, but would instead generate tiny, passive amounts of "Fleeting Hope" or "Nostalgia" over time—meager resources needed to face the harsh outer Worlds.
+
+3.  **Unlocking through Repetition:** New "Learned Truths" from completing a recurrence wouldn't just be narrative flags; they would unlock new, more complex idle mechanics. For example, after experiencing the "Business World," the player might unlock a "Self-Loathing Ledger" in their Room, which passively converts "Fleeting Hope" into a more potent but dangerous resource like "Cynicism."
+
+4.  **Vice as an "Ascension" Mechanic:** Indulging in a Vice wouldn't just be a quick fix. Repeatedly using the same Vice could unlock permanent, damning "prestige" bonuses for the next recurrence, inspired by games like *Cookie Clicker*. Ascending through "Alcohol" might grant a permanent higher tolerance but make genuine connection harder to achieve. This reframes the entire cycle as a slow descent into a specialized kind of damnation, driven by the player's own incremental choices.
