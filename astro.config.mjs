@@ -8,7 +8,7 @@ import cloudflare from '@astrojs/cloudflare';
 export default defineConfig({
   integrations: [
       starlight({
-          title: 'My Docs',
+          title: 'Cludstrum Documenation',
           social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
           sidebar: [
               {
