@@ -20,7 +20,7 @@
 	},
 	"routes": [
 		{
-		  "pattern": "www.elliotbradly.art",
+		  "pattern": "art.elliotbradly.art",
 		  "custom_domain": true
 		}
 	  ]
