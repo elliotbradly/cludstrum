@@ -3,11 +3,8 @@ title: initColor
 description: Calculates the sum of an array of numbers.
 ---
 
-Launch an emulator and return a Promise of the emulator instance.
+Initialize the Color Unit and returns a Promise with a json describing the result 
 
-:::tip
-Consider using [`Nostalgist.prepare`](/apis/prepare/) and [`<instance>.start`](/apis/start/) instead of this method if you need to load files through a network.
-:::
 
 ## Usage
 Here is an example of its basic usage:
@@ -18,49 +15,6 @@ const nostalgist = await Nostalgist.launch({
 })
 ```
 
-A more complex example:
-
-```js
-const nostalgist = await Nostalgist.launch({
-  element: document.querySelector('.emulator-canvas'),
-
-  // Will load https://example.com/core/fbneo_libretro.js and https://example.com/core/fbneo_libretro.wasm as the launching core
-  // Because of the custom `resolveCoreJs` and `resolveCoreWasm` options
-  core: 'fbneo',
-
-  // Will load https://example.com/roms/mslug.zip as the ROM
-  // Because of the custom `resolveRom` option
-  rom: ['mslug.zip'],
-
-  // Will load https://example.com/system/neogeo.zip as the BIOS
-  // Because of the custom `resolveBios` option
-  bios: ['neogeo.zip'],
-
-  // Custom configuration for RetroArch
-  retroarchConfig: {
-    rewind_enable: true,
-    savestate_thumbnail_enable: true,
-  },
-
-  // Specify where to load the core files
-  resolveCoreJs(core) {
-    return `https://example.com/core/${core}_libretro.js`
-  },
-  resolveCoreWasm(core) {
-    return `https://example.com/core/${core}_libretro.wasm`
-  },
-
-  // Specify where to load the ROM files
-  resolveRom(file) {
-    return `https://example.com/roms/${file}`
-  },
-
-  // Specify where to load the BIOS files
-  resolveBios(bios) {
-    return `https://example.com/system/${bios}`
-  },
-})
-```
 
 ## Arguments
 + ### `options`
