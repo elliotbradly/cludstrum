@@ -5,7 +5,7 @@ template: splash
 hero:
   tagline: Congrats on setting up a new Starlight project!
   image:
-    file: ../../assets/houston.webp
+    file: ../../../public/img/000.png
   actions:
     - text: Example Guide
       link: /guides/example/
@@ -17,10 +17,19 @@ hero:
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
 
 ## Next steps
 
 <CardGrid stagger>
+
+
+    <LinkCard 
+	title="Rewards" href="reference/006rewards/"
+	description="Configure Starlight to support multiple languages."
+	 />
+
+
 	<Card title="Update content" icon="pencil">
 		Edit `src/content/docs/index.mdx` to see this page change.
 	</Card>

@@ -19,6 +19,10 @@ export default defineConfig({
                   ],
               },
               {
+                label: 'Base',
+                autogenerate: { directory: 'base' },
+            },
+              {
                   label: 'Reference',
                   autogenerate: { directory: 'reference' },
               },
@@ -30,6 +34,7 @@ export default defineConfig({
       platformProxy: {
           enabled: true
       },
+      
 
       imageService: "cloudflare"
   }),
