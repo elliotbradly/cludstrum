@@ -35,7 +35,8 @@ export default defineConfig({
                     label: 'APIs',
                     items: [
                         timePivot,
-                        pixelPivot
+                        pixelPivot,
+                        { label: 'Advice', link: '/apis/advice' },
                     ],
                 },
 
