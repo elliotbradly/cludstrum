@@ -1,11 +1,14 @@
 ---
+
+
+
 title: Cludstrum
 description: stuff from the mind of Brad Henderson, yup
 template: splash
 hero:
   tagline: Congrats on setting up a new Starlight project!
   image:
-    file: ../../../public/img/000.png
+    file: ../../assets/img/000.png
   actions:
     - text: Example Guide
       link: /guides/example/
@@ -15,11 +18,15 @@ hero:
       icon: external
       variant: minimal
 ---
+import { Image } from 'astro:assets';
+import localBirdImage from '../../assets/img/000.png';
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 import { LinkCard } from '@astrojs/starlight/components';
 
 ## Next steps
+
+<Image src={localBirdImage} alt="A bird sitting on a nest of eggs." />
 
 <CardGrid stagger>
 
